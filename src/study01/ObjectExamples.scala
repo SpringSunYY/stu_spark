@@ -54,8 +54,10 @@ object ObjectExamples {
     location.move(10, 15, 5)
     println("===============")
     val fred = new Employee
-    fred.name = "Fred"
+//    fred.name = "Fred"
     fred.salary = 50000
     println(fred.toString)
+    val add =(a:Int,b:Int)=>a+b
+    println(add(1,2))
   }
 }
