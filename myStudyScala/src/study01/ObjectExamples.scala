@@ -1,7 +1,6 @@
 package study01
 
 // region 继承
-
 class Point(val xc: Int,val yc: Int) {
   var x: Int = xc
   var y: Int = yc
