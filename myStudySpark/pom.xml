@@ -20,6 +20,18 @@
             <artifactId>spark-core_2.12</artifactId>
             <version>3.4.3</version>
         </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version> <!-- 确保版本号匹配 -->
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.12</artifactId>
+            <version>3.4.3</version>
+        </dependency>
     </dependencies>
 
 </project>
